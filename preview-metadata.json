@@ -1,0 +1,11 @@
+{
+  "repository": "cybercrs/gem-city-data-model-lab",
+  "source_branch": "rollout/stlite-browser-navigation",
+  "source_commit": "01f2f5aaebe7b8e0ecd85531c7f1aa936848816b",
+  "static_branch": "stlite-browser",
+  "main_commit": "fa22e71230a978443acf43152e82088f3dc3e453",
+  "runtime": "stlite 1.8.1 / Streamlit 1.57.0 / Pyodide 0.29.3",
+  "activation": "Settings > Pages > Deploy from a branch > stlite-browser > / (root)",
+  "pages_existed_before_publish": false,
+  "hosted_ui_verified": false
+}
