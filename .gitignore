@@ -4,3 +4,7 @@
 __pycache__/
 *.py[cod]
 .pytest_cache/
+
+# Generated browser runtime and raw local evidence
+browser/dist/
+browser/test-results/
