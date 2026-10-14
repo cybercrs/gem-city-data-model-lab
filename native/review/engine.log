@@ -1,0 +1,13 @@
+✔ All seven Python bookmarks restore exact 63-bit seeds and native round-trip (34.19463ms)
+✔ Python MT19937 shuffle matches original for every oracle seed/salt (8.625248ms)
+✔ Complete original model, wrong answers, revisions, drafts and strict review guards (1.639353ms)
+✔ Future/incomplete/tampered state rejected; current revised draft survives (3.516652ms)
+✔ Every exported answer evaluation has Python-correct classification (0.296616ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 113.108661

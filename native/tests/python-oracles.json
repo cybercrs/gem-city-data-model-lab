@@ -1,0 +1,438 @@
+{
+  "legacy": [
+    {
+      "stage": 0,
+      "token": "eNotjcEKgCAMht9lZw8yM823GSQhlIJJh8R3T5unb_v3batA4GoTsHcAxXTRGfzNmc_MI1OIXMaUh_FSCWlG2f8nhj_1qTISuA1RKYNSrVYvxmgrTV_jcX8lBRRuHnDYPo56LB4",
+      "snapshot": {
+        "v": 2,
+        "s": 0,
+        "o": 9223372036854775807,
+        "d": {
+          "grain": {},
+          "anomalies": {},
+          "normalization": {},
+          "er": {},
+          "rea": {}
+        },
+        "g": {},
+        "a": {},
+        "n": {},
+        "e": {},
+        "r": {},
+        "t": {}
+      }
+    },
+    {
+      "stage": 1,
+      "token": "eNqlj8EKwjAMhl9l5NzD1jo7e_YiCD5DsUWKM5GsCjr27qZ2B-9C4W_yJ_9HZvDg5kVBEAGPdPNjilPtRa56YZ-w-OsHThibO1N4nHMzJikI5YlwkB0F1_gqU6U6in3Yg6QgcQl_-5wIazDHL72gVtL_lBpE4HZaG2N1a7ZDv7G2H1orxGrLgZ2C_EPrpPsEp5cPXRtWYQ",
+      "snapshot": {
+        "v": 2,
+        "s": 1,
+        "o": 9223372036854775807,
+        "d": {
+          "grain": {
+            "grain": "One product line on one order",
+            "key": "OrderLineID"
+          },
+          "anomalies": {},
+          "normalization": {},
+          "er": {},
+          "rea": {}
+        },
+        "g": {
+          "grain": "One product line on one order",
+          "key": "OrderLineID"
+        },
+        "a": {},
+        "n": {},
+        "e": {},
+        "r": {},
+        "t": {
+          "grain": 1
+        }
+      }
+    },
+    {
+      "stage": 2,
+      "token": "eNq9kE0LgzAMhv-K5OzBjzmdZy_CwNPOUmwYZdpKrQMn_vclKsJ2HeyUJnnzPk1mEJDPILFFh3VvjRwbBzkUXFBGe0KbTrQT-KD0gNbVzTg406ElUblWPlVjLwU5NcpNpLit2dFefJCM23KFw3_ZPDhTvFuhNKP3B1QavZ3vtYoSsjUcrKQZHx7IhhVnV2qXBbtpY3mJl-BfbMYW-ZoLo3bS75TNyEB-iaI4TqMgPmfJKU2TLEiJuLXpkJEP7uu24bFqSJonaZY3Q-Wm5A",
+      "snapshot": {
+        "v": 2,
+        "s": 2,
+        "o": 9223372036854775807,
+        "d": {
+          "grain": {
+            "grain": "One product line on one order",
+            "key": "OrderLineID"
+          },
+          "anomalies": {
+            "insert_customer": "Insertion anomaly",
+            "update_city": "Update anomaly",
+            "delete_product": "Deletion anomaly"
+          },
+          "normalization": {},
+          "er": {},
+          "rea": {}
+        },
+        "g": {
+          "grain": "One product line on one order",
+          "key": "OrderLineID"
+        },
+        "a": {
+          "insert_customer": "Insertion anomaly",
+          "update_city": "Update anomaly",
+          "delete_product": "Deletion anomaly"
+        },
+        "n": {},
+        "e": {},
+        "r": {},
+        "t": {
+          "grain": 1,
+          "anomalies": 1
+        }
+      }
+    },
+    {
+      "stage": 3,
+      "token": "eNrVUk1rwzAM_StF5xyaZF263EZzKYy1Y_RcRCyGaWIXxxl0If99UuKEtjsOBjvZTx_vSQ91gJB3oKgiT8ezs6otPeRQSEBbs0Bja6wuEIE2DTl_LNvG25ocF22HyG1Ve1bITKX2F644DGhO9xEokRuxpuZvtaWx4_fDoTYiHT6wM7QI-otKM2BaK49T3BPBiYRwJ-iF09tC2Ix1ssQXyhTC9lz6FquD0X7vdEnXHQ2TbMLwm3G8CV6nXrGmu9RAUfAiE50E9-OsoTwgSby1aPzIf6P97tEodGoabG7hPRzJCfTiT7Dn99b8Yzss5E9JkqZZskwf16uHLFutlxnbNJrDJ5tG4O-uOJ6PKv5xGDF3fUKe9N-GUis0",
+      "snapshot": {
+        "v": 2,
+        "s": 3,
+        "o": 9223372036854775807,
+        "d": {
+          "grain": {
+            "grain": "One product line on one order",
+            "key": "OrderLineID"
+          },
+          "anomalies": {
+            "insert_customer": "Insertion anomaly",
+            "update_city": "Update anomaly",
+            "delete_product": "Deletion anomaly"
+          },
+          "normalization": {
+            "CustomerName": "Customers",
+            "CustomerCity": "Customers",
+            "OrderDate": "Orders",
+            "ProductName": "Products",
+            "StandardPrice": "Products",
+            "Quantity": "OrderLines",
+            "ActualUnitPrice": "OrderLines"
+          },
+          "er": {},
+          "rea": {}
+        },
+        "g": {
+          "grain": "One product line on one order",
+          "key": "OrderLineID"
+        },
+        "a": {
+          "insert_customer": "Insertion anomaly",
+          "update_city": "Update anomaly",
+          "delete_product": "Deletion anomaly"
+        },
+        "n": {
+          "CustomerName": "Customers",
+          "CustomerCity": "Customers",
+          "OrderDate": "Orders",
+          "ProductName": "Products",
+          "StandardPrice": "Products",
+          "Quantity": "OrderLines",
+          "ActualUnitPrice": "OrderLines"
+        },
+        "e": {},
+        "r": {},
+        "t": {
+          "grain": 1,
+          "anomalies": 1,
+          "normalization": 1
+        }
+      }
+    },
+    {
+      "stage": 4,
+      "token": "eNrVU8tugzAQ_BVrzxwCSUrKrQqXSFWTqsoZWdiNrIIdGVOJIv69uxhQoL1VatWTvY-Z2YfdAoekBSEL6WR2tUbUuYMEUnIooxnXpuRFAwEoXUnrsryunCmlxaRD75ln1VfBkSlXrsGMc29N4S4AQXLeVrL6XW0CtjCSVJmxAg9MDZkzrOSaSF6NleqiszfZUOhIOY9KY60BeEBW9OYcNpT_XRCVL5YrTeLDBY5asgHCCMGwEUMHKSAdqt-KH1Ji0cbS2D449U1sD7mreXHWyp2syuWy3P3Q6d4PZDRvQ0-8lItQT5Hi6EY6cp58rUP6YFHguebaef6Z9ovjWnArxsImCPZhJT26jjbyZwv5-TL-8QIMJPdRtF7H0Wp9t9tu4ni7W8W4GFpLADitTQBu8VND_4HC6TWHX15kiOB3SKLuEwbMe8E",
+      "snapshot": {
+        "v": 2,
+        "s": 4,
+        "o": 9223372036854775807,
+        "d": {
+          "grain": {
+            "grain": "One product line on one order",
+            "key": "OrderLineID"
+          },
+          "anomalies": {
+            "insert_customer": "Insertion anomaly",
+            "update_city": "Update anomaly",
+            "delete_product": "Deletion anomaly"
+          },
+          "normalization": {
+            "CustomerName": "Customers",
+            "CustomerCity": "Customers",
+            "OrderDate": "Orders",
+            "ProductName": "Products",
+            "StandardPrice": "Products",
+            "Quantity": "OrderLines",
+            "ActualUnitPrice": "OrderLines"
+          },
+          "er": {
+            "customers_orders": "1 to many",
+            "orders_lines": "1 to many",
+            "products_lines": "1 to many",
+            "foreign_keys": "OrderLines"
+          },
+          "rea": {}
+        },
+        "g": {
+          "grain": "One product line on one order",
+          "key": "OrderLineID"
+        },
+        "a": {
+          "insert_customer": "Insertion anomaly",
+          "update_city": "Update anomaly",
+          "delete_product": "Deletion anomaly"
+        },
+        "n": {
+          "CustomerName": "Customers",
+          "CustomerCity": "Customers",
+          "OrderDate": "Orders",
+          "ProductName": "Products",
+          "StandardPrice": "Products",
+          "Quantity": "OrderLines",
+          "ActualUnitPrice": "OrderLines"
+        },
+        "e": {
+          "customers_orders": "1 to many",
+          "orders_lines": "1 to many",
+          "products_lines": "1 to many",
+          "foreign_keys": "OrderLines"
+        },
+        "r": {},
+        "t": {
+          "grain": 1,
+          "anomalies": 1,
+          "normalization": 1,
+          "er": 1
+        }
+      }
+    },
+    {
+      "stage": 5,
+      "token": "eNrVVE1vgzAM_SvIZw6FrqPjVrU9VJrWrlXPKAKviwYJCqESq_rfZ_Ml6HabtGqnYPv5PSd55AICwgskmKLFKDc6KWMLIaw4IbVyhNKZSCtwQaoCjY3isrA6Q0OgTZ0Zo8o8EcQUS1sR4lhHffnqQsJyTSyx-FttbrxAR1JE2iS0ENRzrHYyoZjkTRuUJxV9YMWlLWOepaJZXWgaorQOx23t-D8VSflkhFQs3n7AVqHTtjjc4dBGNC-sQHSkPhTfrJhFacPH9il438y2iG0p0qOSdmdkjLfjLtudLpsD6cJh6UVkeFOqKVZ0dB0dJ3fNrC28jbjwWgplG_6R9sEKlQiTdIP1LbQPg7XplqJ4p8oeC10aArl1xtljjDJnI6zPqOxgWEotTk1qneWprhAHqY1iuDbVmPMgUuy5ruyCu5ng9wb4x5euIXzy_ek08CfTx_nsIQhm80lAZriXFVygG5q5YG9eJK95KLz-r_W-_Xle62GPSM4Q-tcvLprJJw",
+      "snapshot": {
+        "v": 2,
+        "s": 5,
+        "o": 9223372036854775807,
+        "d": {
+          "grain": {
+            "grain": "One product line on one order",
+            "key": "OrderLineID"
+          },
+          "anomalies": {
+            "insert_customer": "Insertion anomaly",
+            "update_city": "Update anomaly",
+            "delete_product": "Deletion anomaly"
+          },
+          "normalization": {
+            "CustomerName": "Customers",
+            "CustomerCity": "Customers",
+            "OrderDate": "Orders",
+            "ProductName": "Products",
+            "StandardPrice": "Products",
+            "Quantity": "OrderLines",
+            "ActualUnitPrice": "OrderLines"
+          },
+          "er": {
+            "customers_orders": "1 to many",
+            "orders_lines": "1 to many",
+            "products_lines": "1 to many",
+            "foreign_keys": "OrderLines"
+          },
+          "rea": {
+            "Inventory": "Resource",
+            "Cash": "Resource",
+            "Sale": "Event",
+            "Cash Receipt": "Event",
+            "Customer": "Agent",
+            "Employee": "Agent"
+          }
+        },
+        "g": {
+          "grain": "One product line on one order",
+          "key": "OrderLineID"
+        },
+        "a": {
+          "insert_customer": "Insertion anomaly",
+          "update_city": "Update anomaly",
+          "delete_product": "Deletion anomaly"
+        },
+        "n": {
+          "CustomerName": "Customers",
+          "CustomerCity": "Customers",
+          "OrderDate": "Orders",
+          "ProductName": "Products",
+          "StandardPrice": "Products",
+          "Quantity": "OrderLines",
+          "ActualUnitPrice": "OrderLines"
+        },
+        "e": {
+          "customers_orders": "1 to many",
+          "orders_lines": "1 to many",
+          "products_lines": "1 to many",
+          "foreign_keys": "OrderLines"
+        },
+        "r": {
+          "Inventory": "Resource",
+          "Cash": "Resource",
+          "Sale": "Event",
+          "Cash Receipt": "Event",
+          "Customer": "Agent",
+          "Employee": "Agent"
+        },
+        "t": {
+          "grain": 1,
+          "anomalies": 1,
+          "normalization": 1,
+          "er": 1,
+          "rea": 1
+        }
+      }
+    },
+    {
+      "stage": 6,
+      "token": "eNrVVE1vgzAM_SvIZw6FrqXjNrU9VJrWrlXPKAKviwYJCqESq_rfZ_Ml6HabtGqnYPv5PSd55AICwgskmKLFKDc6KWMLIaw4IbVyhNKZSCtwQaoCjY3isrA6Q0OgTZ0Zo8o8EcQUS1sR4lhHffnqQsJyTSyx-FttbrxAR1JE2iS0ENRzrHYyoZjkTRuUJxV9YMWlLWOepaJZXWgaorQOx23t-D8VSflkhFQs3n7AVqHTtjjc4dBGNC-sQHSkPhTfrJhFacPH9il438z2FNtSpEcl7c7IGG_HXbY7XTYH0oXD0ovI8KZUU6zo6Do6Tu6aWVt4G3HhtRTKNvwj7YMVKhEm6QbrW2gfBmvTLUXxTpU9Fro0BHLrjLPHGGXORlifUdnBsJR6OjWpdZanukIcpDaK4dpUY86DSLHnurIL7maC3xvgH1-6hvDR96fTwJ9M54vZQxDMFpOAzHAvK7hANzR3wd68SF7zUHj9X-t9-_O81sMekZwh9K9fLuHJKA",
+      "snapshot": {
+        "v": 2,
+        "s": 6,
+        "o": 9223372036854775807,
+        "d": {
+          "grain": {
+            "grain": "One product line on one order",
+            "key": "OrderLineID"
+          },
+          "anomalies": {
+            "insert_customer": "Insertion anomaly",
+            "update_city": "Update anomaly",
+            "delete_product": "Deletion anomaly"
+          },
+          "normalization": {
+            "CustomerName": "Customers",
+            "CustomerCity": "Customers",
+            "OrderDate": "Orders",
+            "ProductName": "Products",
+            "StandardPrice": "Products",
+            "Quantity": "OrderLines",
+            "ActualUnitPrice": "OrderLines"
+          },
+          "er": {
+            "customers_orders": "1 to many",
+            "orders_lines": "1 to many",
+            "products_lines": "1 to many",
+            "foreign_keys": "OrderLines"
+          },
+          "rea": {
+            "Inventory": "Resource",
+            "Cash": "Resource",
+            "Sale": "Event",
+            "Cash Receipt": "Event",
+            "Customer": "Agent",
+            "Employee": "Agent"
+          }
+        },
+        "g": {
+          "grain": "One product line on one order",
+          "key": "OrderLineID"
+        },
+        "a": {
+          "insert_customer": "Insertion anomaly",
+          "update_city": "Update anomaly",
+          "delete_product": "Deletion anomaly"
+        },
+        "n": {
+          "CustomerName": "Customers",
+          "CustomerCity": "Customers",
+          "OrderDate": "Orders",
+          "ProductName": "Products",
+          "StandardPrice": "Products",
+          "Quantity": "OrderLines",
+          "ActualUnitPrice": "OrderLines"
+        },
+        "e": {
+          "customers_orders": "1 to many",
+          "orders_lines": "1 to many",
+          "products_lines": "1 to many",
+          "foreign_keys": "OrderLines"
+        },
+        "r": {
+          "Inventory": "Resource",
+          "Cash": "Resource",
+          "Sale": "Event",
+          "Cash Receipt": "Event",
+          "Customer": "Agent",
+          "Employee": "Agent"
+        },
+        "t": {
+          "grain": 1,
+          "anomalies": 1,
+          "normalization": 1,
+          "er": 1,
+          "rea": 1
+        }
+      }
+    }
+  ],
+  "shuffles": [
+    {
+      "seed": "0",
+      "salt": "anomaly-answer-order:insert_customer",
+      "expected": [
+        "Insertion anomaly",
+        "Deletion anomaly",
+        "Update anomaly"
+      ]
+    },
+    {
+      "seed": "0",
+      "salt": "rea-question-order",
+      "expected": [
+        "Update anomaly",
+        "Deletion anomaly",
+        "Insertion anomaly"
+      ]
+    },
+    {
+      "seed": "34105",
+      "salt": "anomaly-answer-order:insert_customer",
+      "expected": [
+        "Insertion anomaly",
+        "Deletion anomaly",
+        "Update anomaly"
+      ]
+    },
+    {
+      "seed": "34105",
+      "salt": "rea-question-order",
+      "expected": [
+        "Deletion anomaly",
+        "Insertion anomaly",
+        "Update anomaly"
+      ]
+    },
+    {
+      "seed": "9223372036854775807",
+      "salt": "anomaly-answer-order:insert_customer",
+      "expected": [
+        "Update anomaly",
+        "Deletion anomaly",
+        "Insertion anomaly"
+      ]
+    },
+    {
+      "seed": "9223372036854775807",
+      "salt": "rea-question-order",
+      "expected": [
+        "Deletion anomaly",
+        "Insertion anomaly",
+        "Update anomaly"
+      ]
+    }
+  ]
+}

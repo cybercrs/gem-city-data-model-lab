@@ -1,0 +1,21 @@
+test_complete_student_flow (test_app_flow.AppFlowTests.test_complete_student_flow) ... 2026-10-14 19:28:09.415 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_partial_selection_is_saved_in_the_url (test_app_flow.AppFlowTests.test_partial_selection_is_saved_in_the_url) ... 2026-10-14 19:28:09.996 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_progress_pills_match_numbered_steps (test_app_flow.AppFlowTests.test_progress_pills_match_numbered_steps) ... 2026-10-14 19:28:10.136 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_wrong_answer_can_be_revised_and_checked_in_one_action (test_app_flow.AppFlowTests.test_wrong_answer_can_be_revised_and_checked_in_one_action) ... 2026-10-14 19:28:10.229 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_all_model_answer_keys (test_engine.EngineTests.test_all_model_answer_keys) ... ok
+test_grain_and_key (test_engine.EngineTests.test_grain_and_key) ... ok
+test_completed_round_trip (test_progress.ProgressTests.test_completed_round_trip) ... ok
+test_future_draft_is_rejected (test_progress.ProgressTests.test_future_draft_is_rejected) ... ok
+test_malformed_and_reset (test_progress.ProgressTests.test_malformed_and_reset) ... ok
+test_partial_draft_and_shuffle_seed_round_trip (test_progress.ProgressTests.test_partial_draft_and_shuffle_seed_round_trip) ... ok
+test_skipped_stage_is_rejected (test_progress.ProgressTests.test_skipped_stage_is_rejected) ... ok
+test_wrong_prior_answer_is_rejected (test_progress.ProgressTests.test_wrong_prior_answer_is_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.984s
+
+OK

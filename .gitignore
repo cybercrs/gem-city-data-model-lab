@@ -4,3 +4,7 @@
 __pycache__/
 *.py[cod]
 .pytest_cache/
+
+# Native build output and temporary local evidence
+native/dist/
+native/test-results/
