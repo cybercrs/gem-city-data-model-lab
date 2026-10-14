@@ -1,0 +1,7 @@
+{
+  "repository": "cybercrs/gem-city-data-model-lab",
+  "source_branch": "rollout/native-browser",
+  "source_commit": "8884883a5f1e77949517b8b03e2c792c5521ef56",
+  "existing_static_parent": "6989b9787e146e58320b00ff90e6bf5166b6a279",
+  "entrypoint": "js/index.html"
+}

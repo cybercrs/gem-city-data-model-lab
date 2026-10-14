@@ -1,0 +1,40 @@
+{
+  "entrypoint": "index.html",
+  "canonical_directory": "js/",
+  "files": {
+    "app.js": {
+      "bytes": 4782,
+      "sha256": "2d1819b1b3b7c281bcb6b4c5d88518d105aea74dc4f43c966843a4752311c726"
+    },
+    "content.js": {
+      "bytes": 88938,
+      "sha256": "f6ca8ccc0d7b0b229f968609616b60f716cc07475478edb55d066105f120564c"
+    },
+    "core.js": {
+      "bytes": 4524,
+      "sha256": "42a77597b3d129d752d26072e66e62044bc5933dab5961d38b5751bf01f3febd"
+    },
+    "engine.js": {
+      "bytes": 2679,
+      "sha256": "2e3f6a7c967a45a2e43be23545517f45b8a934946eba732b475c2a22e9d40e0f"
+    },
+    "index.html": {
+      "bytes": 1953,
+      "sha256": "9e09fdc8e356991620050a409c476898ddb42c7323f165823cc6b6e9427d4257"
+    },
+    "original.css": {
+      "bytes": 7410,
+      "sha256": "9ef1aac720ea4a24196f98eeac493a1af5b408e8dbf05ecfad595b8622f3a86b"
+    },
+    "style.css": {
+      "bytes": 5973,
+      "sha256": "545857f8a19a6a509ad5f32d8c12ac2120b4c6b962c91a28525cf0c3bd3fb4d1"
+    },
+    "ui.js": {
+      "bytes": 5257,
+      "sha256": "58710b2029302915c62db08cb44801dc3b45c83d61e502846417fd51d8d65e2d"
+    }
+  },
+  "application_bytes": 121516,
+  "python_runtime": false
+}

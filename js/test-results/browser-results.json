@@ -1,0 +1,83 @@
+{
+  "checks": [
+    {
+      "name": "Native /js/ cold initialization with forward locked",
+      "status": "passed"
+    },
+    {
+      "name": "grain: incomplete/wrong/revised submissions, refreshed drafts and readonly review",
+      "status": "passed"
+    },
+    {
+      "name": "anomalies: incomplete/wrong/revised submissions, refreshed drafts and readonly review",
+      "status": "passed"
+    },
+    {
+      "name": "normalization: incomplete/wrong/revised submissions, refreshed drafts and readonly review",
+      "status": "passed"
+    },
+    {
+      "name": "er: incomplete/wrong/revised submissions, refreshed drafts and readonly review",
+      "status": "passed"
+    },
+    {
+      "name": "rea: incomplete/wrong/revised submissions, refreshed drafts and readonly review",
+      "status": "passed"
+    },
+    {
+      "name": "All seven original Python links import; future views rejected",
+      "status": "passed"
+    },
+    {
+      "name": "Final title and all rendered lesson variants retain original content without provisional branding",
+      "status": "passed"
+    },
+    {
+      "name": "All reached pages review readonly; forward capped; progress token unchanged",
+      "status": "passed"
+    },
+    {
+      "name": "Keyboard focus ring and Enter navigation",
+      "status": "passed"
+    },
+    {
+      "name": "390px layout, no page overflow, 44px navigation touch targets",
+      "status": "passed"
+    },
+    {
+      "name": "Independent sessions start fresh",
+      "status": "passed"
+    },
+    {
+      "name": "Refresh/bookmark behavior matches original saving design",
+      "status": "passed"
+    },
+    {
+      "name": "Malformed/future bookmarks and reset remain fresh",
+      "status": "passed"
+    },
+    {
+      "name": "No external requests, asset failures, or browser execution errors",
+      "status": "passed"
+    }
+  ],
+  "console_errors": [],
+  "page_errors": [],
+  "external_requests": [],
+  "http_errors": [],
+  "hosted_ui_tested": false,
+  "measurement": {
+    "local_cold_navigation_to_ready_ms": 190.0,
+    "viewport": "1280x900",
+    "browser": "151.0.7922.173",
+    "browser_context": "new context; local loopback HTTP; no simulated network latency; cache empty",
+    "application_bytes": 121521,
+    "gzip_bytes_sum": 21587,
+    "capacity_claim": false
+  },
+  "not_run": [
+    "Hosted UI: known proxy denial",
+    "Physical classroom devices/network",
+    "Classroom concurrent capacity"
+  ]
+}
